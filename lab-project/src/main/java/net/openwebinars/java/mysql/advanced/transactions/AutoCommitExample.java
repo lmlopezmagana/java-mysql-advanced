@@ -34,7 +34,7 @@ public class AutoCommitExample {
 
                 pstm.executeUpdate();
 
-                // conn.commit();
+                conn.commit();
 
                 // Con esta línea comentada, la inserción no se confirma realmente
                 // En apariencia, cuando hagamos la siguiente consulta, nos aparecerá

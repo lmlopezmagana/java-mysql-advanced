@@ -1,5 +1,7 @@
 package net.openwebinars.java.mysql.advanced;
 
+import net.openwebinars.java.mysql.advanced.procedures.StoredProcedureExample;
+import net.openwebinars.java.mysql.advanced.transactions.AutoCommitExample;
 import net.openwebinars.java.mysql.advanced.transactions.IsolationExample;
 import net.openwebinars.java.mysql.advanced.transactions.SavePointExample;
 import net.openwebinars.java.mysql.advanced.transactions.TransactionsExample;
@@ -10,8 +12,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        // StoredProcedureExample storedProcedureExample = new StoredProcedureExample();
-        // storedProcedureExample.test();
+        //StoredProcedureExample storedProcedureExample = new StoredProcedureExample();
+        //storedProcedureExample.test();
 
         //AutoCommitExample autoCommitExample = new AutoCommitExample();
         //autoCommitExample.test();
